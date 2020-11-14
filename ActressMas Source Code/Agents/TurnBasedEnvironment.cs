@@ -269,7 +269,7 @@ namespace ActressMas
             return randPerm;
         }
 
-        private void RunTurn(int turn)
+        protected void RunTurn(int turn)
         {
             int[] agentOrder = null;
             if (_randomOrder)
